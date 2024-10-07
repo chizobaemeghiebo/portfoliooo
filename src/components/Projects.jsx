@@ -17,10 +17,8 @@ const Projects = () => {
         <div className='grid grid-cols-1 md:grid-cols-2 gap-12 p-4 rounded-lg'>
           <Card bg='bg-pink-300'>
             <h2 className='text-2xl font-bold mb-2'>Rateam</h2>
-            <img src={rateam} alt='' />
-            <p className='mt-2 mb-4'>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum cum consectetur sequi molestias mollitia harum modi eaque deleniti, suscipit nulla iusto obcaecati odio voluptatibus qui libero quo dolorem numquam nobis!
-            </p>
+            <img src={rateam} alt='rateam thumbnail' />
+            <p className='mt-2 mb-4'>Rate am is the website for an app that allows you to rate your network provider based on your call performance in your area.</p>
             <Link to='https://rateam.ng' target='_blank' className='inline-block bg-black text-white rounded-lg px-4 py-2 border border-b-2 hover:bg-transparent  hover:border-pink-800 hover:text-black hover:animate-waving-hand'>
               Visit site
               <FaArrowRight className='inline ml-2' />
@@ -43,9 +41,7 @@ const Projects = () => {
           <Card>
             <h2 className='text-2xl font-bold mb-2'>Lima</h2>
             <img src={lima} alt='' />
-            <p className='mt-2 mb-4'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam nulla quod voluptatem error vitae voluptates neque nesciunt iure quisquam velit. Doloribus sint dolor deleniti! Quaerat perferendis praesentium porro expedita minus.
-            </p>
+            <p className='mt-2 mb-4'>Lima is a website for a new marketing company.</p>
             <Link to='https://limamarketing.netlify.app/' target='_blank' className='inline-block bg-black text-white rounded-lg px-4 py-2 border border-b-2 hover:bg-transparent hover:border-pink-800 hover:text-black hover:animate-waving-hand'>
               Visit site
               <FaArrowRight className='inline ml-2' />
@@ -56,8 +52,7 @@ const Projects = () => {
             <h2 className='text-2xl font-bold mb-2'>Shortify</h2>
             <img src={shortify} alt='' />
             <p className='mt-2 mb-4'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus molestiae, doloremque qui cumque totam earum debitis consequatur nihil provident eaque eveniet deleniti exercitationem voluptatum explicabo praesentium iusto dicta
-              maxime? Deleniti.
+              Sometimes you want to share a link to a friend or add a link to your design or flyer but it's just too long. Shoortify is here to help. Shoortify is a website created to help you shorten your long links for free.
             </p>
             <Link to='https://shoortify.netlify.app/' target='_blank' className='inline-block bg-black text-white rounded-lg px-4 py-2 border border-b-2 hover:bg-transparent hover:border-pink-800 hover:text-black hover:animate-waving-hand'>
               Visit site
@@ -68,10 +63,7 @@ const Projects = () => {
           <Card bg='md:bg-pink-300'>
             <h2 className='text-2xl font-bold mb-2'>Simple Dictionary</h2>
             <img src={dictionary} alt='' />
-            <p className='mt-2 mb-4'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus molestiae, doloremque qui cumque totam earum debitis consequatur nihil provident eaque eveniet deleniti exercitationem voluptatum explicabo praesentium iusto dicta
-              maxime? Deleniti.
-            </p>
+            <p className='mt-2 mb-4'>This simple dictionary was created as a little fun project with a designer friend. It uses the Merrriam Webster API to get the meanings of words and also help with audio pronunciation!</p>
             <Link to='https://dictioonary.netlify.app/' target='_blank' className='inline-block bg-black text-white rounded-lg px-4 py-2 border border-b-2 hover:bg-transparent hover:border-pink-800 hover:text-black hover:animate-waving-hand'>
               Visit site
               <FaArrowRight className='inline ml-2' />
@@ -79,12 +71,9 @@ const Projects = () => {
           </Card>
 
           <Card bg='bg-pink-300 '>
-            <h2 className='text-2xl font-bold mb-2'>Rock, Paper, Scissors Game</h2>
+            <h2 className='text-2xl font-bold mb-2'>Rock, Paper, Scissors </h2>
             <img src={rps} alt='' />
-            <p className='mt-2 mb-4'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus molestiae, doloremque qui cumque totam earum debitis consequatur nihil provident eaque eveniet deleniti exercitationem voluptatum explicabo praesentium iusto dicta
-              maxime? Deleniti.
-            </p>
+            <p className='mt-2 mb-4'>This is a fun game of Rock,Paper,Scissors I made recently.</p>
             <Link
               to='https://chizobaemeghiebo.github.io/RockPaperScissors/'
               target='_blank'
