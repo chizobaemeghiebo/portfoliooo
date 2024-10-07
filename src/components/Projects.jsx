@@ -52,7 +52,7 @@ const Projects = () => {
             </Link>
           </Card>
 
-          <Card bg='bg-pink-300 lg:bg-gray-100'>
+          <Card bg='bg-pink-300 md:bg-gray-100'>
             <h2 className='text-2xl font-bold mb-2'>Shortify</h2>
             <img src={shortify} alt='' />
             <p className='mt-2 mb-4'>
@@ -65,7 +65,7 @@ const Projects = () => {
             </Link>
           </Card>
 
-          <Card bg='lg:bg-pink-300'>
+          <Card bg='md:bg-pink-300'>
             <h2 className='text-2xl font-bold mb-2'>Simple Dictionary</h2>
             <img src={dictionary} alt='' />
             <p className='mt-2 mb-4'>
@@ -78,7 +78,7 @@ const Projects = () => {
             </Link>
           </Card>
 
-          <Card bg='bg-pink-300 lg:bg-gray-100'>
+          <Card bg='bg-pink-300 '>
             <h2 className='text-2xl font-bold mb-2'>Rock, Paper, Scissors Game</h2>
             <img src={rps} alt='' />
             <p className='mt-2 mb-4'>

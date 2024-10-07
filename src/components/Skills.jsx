@@ -8,7 +8,7 @@ const Skills = () => {
       <div className='container-xl lg:container mx-auto w-[90%]'>
         <h2 className='font-bold text-center text-3xl mb-4'>My Skills</h2>
 
-        <div className='flex items-center justify-between my-20'>
+        <div className='flex items-center justify-center my-20 flex-wrap gap-4 space-y-4'>
           <div>
             <FaJs className='text-6xl text-[#1B2021] hover:text-[#89023E] hover:text-7xl transition-all' />
           </div>
