@@ -8,7 +8,7 @@ const MobileNav = () => {
   return (
     <div>
       <FaTimes className='text-4xl text-white cursor-pointer' />
-      <ul className='absolute flex flex-col bg-transparent shadow-xl mx-auto space-y-1 items-center right-0 top-20 left-0 w-3/4'>
+      <ul className='absolute flex flex-col bg-transparent shadow-xl mx-auto space-y-1 items-center right-0 top-20 left-0 w-3/4 p-4'>
         <li className='ml-4 text-white font-bold hover:text-black'>
           <NavLink to='/projects'>Projects</NavLink>
         </li>

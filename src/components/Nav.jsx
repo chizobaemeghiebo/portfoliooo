@@ -18,13 +18,13 @@ const Nav = () => {
             <p className='text-white font-bold text-3xl'>Chyzobah</p>
           </div>
           <ul className='  hidden md:flex p-4 '>
-            <li className='ml-4 text-white font-bold'>
+            <li className='ml-4 text-white font-bold hover:text-black'>
               <NavLink to='/projects'>Projects</NavLink>
             </li>
-            <li className='ml-4 text-white font-bold'>
+            <li className='ml-4 text-white font-bold hover:text-black'>
               <NavLink to='/contact'>Contact</NavLink>
             </li>
-            <li className='ml-4 text-white font-bold'>
+            <li className='ml-4 text-white font-bold hover:text-black'>
               <NavLink to='/resume'>Resume</NavLink>
             </li>
           </ul>
