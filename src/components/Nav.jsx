@@ -1,42 +1,35 @@
 import { useState } from 'react'
-import { NavLink, Link } from 'react-router-dom'
-import { FaHamburger, FaWindowClose, FaTimes } from 'react-icons/fa'
+import { NavLink } from 'react-router-dom'
+import { FaHamburger } from 'react-icons/fa'
+import MobileNav from './MobileNav'
 
 const Nav = () => {
-  // TODO:work on menu buttons
-  // // const [showMenu, setShowMenu] = useState()
+  const [showMenu, setShowMenu] = useState(false)
 
-  // function handleClick() {
-  //   // alert('You clicked me!')
-  //   // FaHamburger.className.add = 'hidden'
-  //   return <FaTimes />
-
-  //   {
-  //     /* console.log(e) */
-  //   }
-  // }
+  const handleClick = () => {
+    setShowMenu(!showMenu)
+  }
 
   return (
     <nav className='bg-transparent absolute top-0 left-0 right-0 '>
-      <div className=' mx-auto max-w-5xl  lg:px-8'>
-        <div className='flex h-20 items-center justify-between p-8'>
+      <div className=' mx-auto max-w-[100rem] lg:px-8 '>
+        <div className='flex h-20 items-center justify-between p-8 relative'>
           <div>
             <p className='text-white font-bold text-3xl'>Chyzobah</p>
           </div>
-          <ul className='hidden lg:flex'>
+          <ul className='  hidden md:flex p-4 '>
             <li className='ml-4 text-white font-bold'>
-              <Link to='/projects'>Projects</Link>
+              <NavLink to='/projects'>Projects</NavLink>
             </li>
             <li className='ml-4 text-white font-bold'>
-              <Link to='/contact'>Contact</Link>
+              <NavLink to='/contact'>Contact</NavLink>
             </li>
             <li className='ml-4 text-white font-bold'>
-              <Link to='/resume'>Resume</Link>
+              <NavLink to='/resume'>Resume</NavLink>
             </li>
           </ul>
-          <div>
-            <FaHamburger className='text-4xl text-white cursor-pointer lg:hidden' onClick={handleClick} />
-            <FaTimes className='text-4xl text-white hidden' />
+          <div className='flex md:hidden' onClick={handleClick}>
+            {showMenu ? <MobileNav /> : <FaHamburger className='text-4xl text-white cursor-pointer' />}
           </div>
         </div>
       </div>
