@@ -65,7 +65,7 @@ const Contact = () => {
   }
 
   return (
-    <section className='py-10 bg-contactBg bg-gray-100'>
+    <section className='py-10 bg-contact bg-gray-100'>
       <div data-aos='zoom-in-up' className='max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 '>
         <h3 className='text-white font-bold text-3xl text-center mb-4'>Contact Me</h3>
         <div className='text-center mx-auto bg-pink-800 max-w-xl backdrop-filter backdrop-blur-sm bg-opacity-20 rounded-md'>

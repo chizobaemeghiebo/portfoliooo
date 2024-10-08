@@ -7,7 +7,7 @@ export default {
         sans: ['Roboto', 'sans-serif'],
       },
       backgroundImage: {
-        contactBg: "url('./src/assets/images/contact.svg')",
+        contact: "url('./src/assets/images/contact.svg')",
       },
       keyframes: {
         wave: {
