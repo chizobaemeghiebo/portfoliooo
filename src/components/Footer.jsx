@@ -7,7 +7,7 @@ const Footer = () => {
       <div className='container mx-auto px-4'>
         <p className='text-center'>
           Made with
-          <FaHeart className='inline-flex mx-2' />
+          <FaHeart className='inline-flex mx-2 animate-bounce' />
           by Zedd
         </p>
         <div className='flex items-center justify-center mt-4'>
