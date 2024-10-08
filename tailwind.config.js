@@ -6,9 +6,7 @@ export default {
       fontFamily: {
         sans: ['Roboto', 'sans-serif'],
       },
-      backgroundImage: {
-        contact: "url('./src/assets/images/contact.svg')",
-      },
+
       keyframes: {
         wave: {
           '0%': { transform: 'rotate(0.0deg)' },
