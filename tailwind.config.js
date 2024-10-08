@@ -7,7 +7,7 @@ export default {
         sans: ['Roboto', 'sans-serif'],
       },
       backgroundImage: {
-        'contact-bg': "url('./src/assets/images/beaubus_night_pattern.svg')",
+        'contact-bg': "url('./src/assets/images/contact.svg')",
       },
       keyframes: {
         wave: {
