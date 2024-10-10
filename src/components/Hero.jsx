@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom'
 import { FaGithub } from 'react-icons/fa'
 import Nav from './Nav'
+import resume from '../assets/Chizobaemeghiebo.pdf'
+// import resume from '../assets'
 
 const Hero = ({ title = 'Chizoba Emeghiebo', subtitle = 'Frontend Developer' }) => {
   return (
@@ -12,9 +14,9 @@ const Hero = ({ title = 'Chizoba Emeghiebo', subtitle = 'Frontend Developer' }) 
           <p className='my-4 text-xl text-white '>{subtitle}</p>
         </div>
         <div className='mb-4 text-center flex utems-center'>
-          <Link to='#' className=' bg-black text-white rounded-lg px-4 py-2 border border-black hover:text-black hover:bg-transparent hover:border-white '>
+          <a href={resume} className=' bg-black text-white rounded-lg px-4 py-2 border border-black hover:text-black hover:bg-transparent hover:border-white' download='resume'>
             Download Resume
-          </Link>
+          </a>
           <Link to='https://github.com/chizobaemeghiebo' className='ml-2 bg-black text-white text-lg rounded-lg  py-2 px-4  border border-black hover:text-black hover:bg-transparent hover:border-white '>
             <FaGithub className='mt-1' />
           </Link>

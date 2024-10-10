@@ -20,9 +20,6 @@ const MobileNav = () => {
             Contact
           </NavHashLink>
         </li>
-        <li className='ml-4 text-white font-bold hover:text-black'>
-          <NavLink to='/resume'>Resume</NavLink>
-        </li>
       </ul>
     </div>
   )
