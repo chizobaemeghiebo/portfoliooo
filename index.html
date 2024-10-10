@@ -8,6 +8,24 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
+    <form netlify netlify-honeypot="bot-field" hidden>
+      <input type="hidden" name="form-name" value="contact-form" />
+      <div>
+        <label for="name">Name</label>
+        <input required />
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input required />
+      </div>
+      <div>
+        <label for="message">Message</label>
+        <textarea required></textarea>
+      </div>
+      <div>
+        <button type="submit">Send</button>
+      </div>
+    </form>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>

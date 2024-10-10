@@ -74,26 +74,27 @@ const Contact = () => {
       <div data-aos='zoom-in-up' className='max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 '>
         <h3 className='text-white font-bold text-3xl text-center mb-4'>Contact Me</h3>
         <div className='text-center mx-auto bg-pink-800 max-w-xl backdrop-filter backdrop-blur-sm bg-opacity-20 rounded-md'>
-          <form action='#' className='  p-4 rounded-md shadow-lg' onSubmit={handleSubmit} netlify>
+          <form className='  p-4 rounded-md shadow-lg' onSubmit={handleSubmit} netlify name='contact-form' method='POST'>
+            <input type='hidden' name='form-name' value='contact-form' />
             <div className='relative my-6 text-white'>
               <label className='absolute text-xs -top-2 left-1 bg-pink-800 px-1 rounded-sm text-white' htmlFor='name'>
                 Name
               </label>
-              <input className='w-full rounded-sm p-2 bg-transparent border border-pink-400 focus:ring-blue-800' type='text' id='name' name='name' value={formData.name} onChange={handleChange} />
+              <input className='w-full rounded-sm p-2 bg-transparent border border-pink-400 focus:ring-blue-800' type='text' id='name' name='name' value={formData.name} onChange={handleChange} required />
               {errors.name && <span className='text-xs block text-left mt-2 text-red-600 font-bold '>{errors.name}</span>}
             </div>
             <div className='relative my-6 text-white'>
               <label className='absolute text-xs -top-2 left-1 bg-pink-800 px-1 rounded-sm text-white' htmlFor='email'>
                 Email
               </label>
-              <input className='w-full rounded-sm p-2 bg-transparent border border-pink-400 focus:ring-blue-800' type='email' id='email' name='email' value={formData.email} onChange={handleChange} />
+              <input className='w-full rounded-sm p-2 bg-transparent border border-pink-400 focus:ring-blue-800' type='email' id='email' name='email' value={formData.email} onChange={handleChange} required />
               {errors.email && <span className='text-xs block text-left mt-2 text-red-600 font-bold '>{errors.email}</span>}
             </div>
             <div className='relative my-6 text-white'>
               <label className='absolute text-xs -top-2 left-1 bg-pink-800 px-1 rounded-sm text-white' htmlFor='message'>
                 Message
               </label>
-              <textarea className='w-full rounded-sm p-2 bg-transparent border border-pink-400 h-52' type='text' id='message' name='message' value={formData.message} onChange={handleChange}></textarea>
+              <textarea className='w-full rounded-sm p-2 bg-transparent border border-pink-400 h-52' type='text' id='message' name='message' value={formData.message} onChange={handleChange} required></textarea>
               {errors.message && <span className='text-xs block text-left mt-2 text-red-600 font-bold'>{errors.message}</span>}
             </div>
             <div className='bg-pink-800 p-2 rounded-full text-white cursor-pointer '>
@@ -104,7 +105,6 @@ const Contact = () => {
           </form>
         </div>
       </div>
-      {/* <img src={bg} alt='' /> */}
     </section>
   )
 }

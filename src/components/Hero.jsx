@@ -2,7 +2,6 @@ import { Link } from 'react-router-dom'
 import { FaGithub } from 'react-icons/fa'
 import Nav from './Nav'
 import resume from '../assets/Chizobaemeghiebo.pdf'
-// import resume from '../assets'
 
 const Hero = ({ title = 'Chizoba Emeghiebo', subtitle = 'Frontend Developer' }) => {
   return (
