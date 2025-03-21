@@ -7,6 +7,8 @@ import swiftally from '../assets/images/swiftally.png'
 import lima from '../assets/images/lima.png'
 import shortify from '../assets/images/shortify.png'
 import dictionary from '../assets/images/dictionary.png'
+import notesapp from '../assets/images/notes_app.png'
+import zeddgpt from '../assets/images/zeddgpt.png'
 import rps from '../assets/images/rps.png'
 
 const Projects = () => {
@@ -17,7 +19,7 @@ const Projects = () => {
         <div className='grid grid-cols-1 md:grid-cols-2 gap-12 p-4 rounded-lg'>
 <Card bg='bg-pink-300'>
             <h2 className='text-2xl font-bold mb-2'>Note App</h2>
-            <img src={rateam} alt='rateam thumbnail' />
+            <img src={notesapp} alt='notesapp thumbnail' />
             <p className='mt-2 mb-4'>This is a simple note app I built that allows the basic CRUD functions and stores data in the local storage.</p>
             <Link to='https://my-aiii.netlify.app/' className='inline-block bg-black text-white rounded-lg px-4 py-2 border border-b-2 hover:bg-transparent  hover:border-pink-800 hover:text-black hover:animate-waving-hand'>
               Visit site
@@ -27,7 +29,7 @@ const Projects = () => {
 
           <Card bg='bg-pink-300'>
             <h2 className='text-2xl font-bold mb-2'>AI Text Manipulator</h2>
-            <img src={rateam} alt='rateam thumbnail' />
+            <img src={zeddgpt} alt='zeddgpt thumbnail' />
             <p className='mt-2 mb-4'>Developed an AI-powered website capable of detecting text in a pre-specified set of languages, translating said text and providing concise summaries of larger bodies of text. This was made possible using Chrome AI. Note that the translation and summarize features do not work on mobile.</p>
             <Link to='https://rtem.netlify.app/' className='inline-block bg-black text-white rounded-lg px-4 py-2 border border-b-2 hover:bg-transparent  hover:border-pink-800 hover:text-black hover:animate-waving-hand'>
               Visit site
