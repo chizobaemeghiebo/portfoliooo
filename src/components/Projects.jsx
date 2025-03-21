@@ -15,34 +15,53 @@ const Projects = () => {
       <div className='container-xl lg:container mx-auto'>
         <h2 className='font-bold text-center text-3xl mb-4'>My Projects</h2>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-12 p-4 rounded-lg'>
-          <Card bg='bg-pink-300'>
-            <h2 className='text-2xl font-bold mb-2'>Rateam</h2>
+<Card bg='bg-pink-300'>
+            <h2 className='text-2xl font-bold mb-2'>Note App</h2>
             <img src={rateam} alt='rateam thumbnail' />
-            <p className='mt-2 mb-4'>Rate am is the website for an app that allows you to rate your network provider based on your call performance in your area.</p>
-            <Link to='https://rateam.ng' target='_blank' className='inline-block bg-black text-white rounded-lg px-4 py-2 border border-b-2 hover:bg-transparent  hover:border-pink-800 hover:text-black hover:animate-waving-hand'>
+            <p className='mt-2 mb-4'>This is a simple note app I built that allows the basic CRUD functions and stores data in the local storage.</p>
+            <Link to='https://my-aiii.netlify.app/' className='inline-block bg-black text-white rounded-lg px-4 py-2 border border-b-2 hover:bg-transparent  hover:border-pink-800 hover:text-black hover:animate-waving-hand'>
               Visit site
               <FaArrowRight className='inline ml-2' />
             </Link>
           </Card>
 
-          {/* TODO:Link not working */}
-          {/* <Card bg='bg-pink-300 lg:bg-gray-100'>
+          <Card bg='bg-pink-300'>
+            <h2 className='text-2xl font-bold mb-2'>AI Text Manipulator</h2>
+            <img src={rateam} alt='rateam thumbnail' />
+            <p className='mt-2 mb-4'>Developed an AI-powered website capable of detecting text in a pre-specified set of languages, translating said text and providing concise summaries of larger bodies of text. This was made possible using Chrome AI. Note that the translation and summarize features do not work on mobile.</p>
+            <Link to='https://rtem.netlify.app/' className='inline-block bg-black text-white rounded-lg px-4 py-2 border border-b-2 hover:bg-transparent  hover:border-pink-800 hover:text-black hover:animate-waving-hand'>
+              Visit site
+              <FaArrowRight className='inline ml-2' />
+            </Link>
+          </Card>
+          
+          <Card bg='bg-pink-300'>
+            <h2 className='text-2xl font-bold mb-2'>Rateam</h2>
+            <img src={rateam} alt='rateam thumbnail' />
+            <p className='mt-2 mb-4'>Rate am is the website for an app that allows you to rate your network provider based on your call performance in your area.</p>
+            <Link to='https://rtem.netlify.app/' className='inline-block bg-black text-white rounded-lg px-4 py-2 border border-b-2 hover:bg-transparent  hover:border-pink-800 hover:text-black hover:animate-waving-hand'>
+              Visit site
+              <FaArrowRight className='inline ml-2' />
+            </Link>
+          </Card>
+
+          <Card bg='bg-pink-300 lg:bg-gray-100'>
             <h2 className='text-2xl font-bold mb-2'>Swiftally</h2>
             <img src={swiftally} alt='' />
             <p className='mt-2 mb-4'>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore ducimus velit cupiditate. Ducimus ab reiciendis ex fuga. Quae rerum ipsa doloremque itaque voluptate iste vero pariatur reiciendis quod, magnam ipsam.
             </p>
-            <Link to='https://swiftally.io' target='_blank' className='inline-block bg-black text-white rounded-lg px-4 py-2 border border-b-2 hover:bg-transparent hover:border-pink-800 hover:text-black hover:animate-waving-hand'>
+            <Link to='https://swftalyp.netlify.app/' className='inline-block bg-black text-white rounded-lg px-4 py-2 border border-b-2 hover:bg-transparent hover:border-pink-800 hover:text-black hover:animate-waving-hand'>
               Visit site
               <FaArrowRight className='inline ml-2' />
             </Link>
-          </Card> */}
+          </Card>
 
           <Card>
             <h2 className='text-2xl font-bold mb-2'>Lima</h2>
             <img src={lima} alt='' />
             <p className='mt-2 mb-4'>Lima is a website for a new marketing company.</p>
-            <Link to='https://limamarketing.netlify.app/' target='_blank' className='inline-block bg-black text-white rounded-lg px-4 py-2 border border-b-2 hover:bg-transparent hover:border-pink-800 hover:text-black hover:animate-waving-hand'>
+            <Link to='https://limamarketing.netlify.app/' className='inline-block bg-black text-white rounded-lg px-4 py-2 border border-b-2 hover:bg-transparent hover:border-pink-800 hover:text-black hover:animate-waving-hand'>
               Visit site
               <FaArrowRight className='inline ml-2' />
             </Link>
@@ -64,7 +83,7 @@ const Projects = () => {
             <h2 className='text-2xl font-bold mb-2'>Simple Dictionary</h2>
             <img src={dictionary} alt='' />
             <p className='mt-2 mb-4'>This simple dictionary was created as a little fun project with a designer friend. It uses the Merrriam Webster API to get the meanings of words and also help with audio pronunciation!</p>
-            <Link to='https://dictioonary.netlify.app/' target='_blank' className='inline-block bg-black text-white rounded-lg px-4 py-2 border border-b-2 hover:bg-transparent hover:border-pink-800 hover:text-black hover:animate-waving-hand'>
+            <Link to='https://dictioonary.netlify.app/'  className='inline-block bg-black text-white rounded-lg px-4 py-2 border border-b-2 hover:bg-transparent hover:border-pink-800 hover:text-black hover:animate-waving-hand'>
               Visit site
               <FaArrowRight className='inline ml-2' />
             </Link>
@@ -76,7 +95,7 @@ const Projects = () => {
             <p className='mt-2 mb-4'>This is a fun game of Rock,Paper,Scissors I made recently.</p>
             <Link
               to='https://chizobaemeghiebo.github.io/RockPaperScissors/'
-              target='_blank'
+              
               className='inline-block bg-black text-white rounded-lg px-4 py-2 border border-b-2 hover:bg-transparent hover:border-pink-800 hover:text-black hover:animate-waving-hand'>
               Visit site
               <FaArrowRight className='inline ml-2' />
